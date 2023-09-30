@@ -19,10 +19,12 @@ void setup()
   // Setting Left Motor pin as OUTPUT
   pinMode(INA_1, OUTPUT);
   pinMode(INB_1, OUTPUT);
+  pinMode(PWM_1, OUTPUT);
 
   // Setting Right Motor pin as OUTPUT
   pinMode(INA_2, OUTPUT);
   pinMode(INB_2, OUTPUT);
+  pinMode(PWM_2, OUTPUT);
 }
 
 void move_forward()
